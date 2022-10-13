@@ -70,6 +70,7 @@ public class BillList {
 				System.out.println("Da xoa !!!");
 				this.setNumOfBill(this.numOfBill - 1);
 				wasDelete = true;
+				break;
 			}
 		}
 		if (!wasDelete) {
